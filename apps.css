@@ -1,0 +1,63 @@
+body
+{
+    background: rgb(22, 39, 123);
+    margin: 10px;
+    padding: 0px;
+    color:rgb(149, 189, 192);
+}
+#page
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {margin-bottom:0px;}
+
+#tablist 
+{
+    width: 80%;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+    align-items:flex-end;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.tab 
+{
+    height: 20px;
+    background: rgb(46, 72, 165);
+    
+    padding: 13px;
+    margin-right: 5px;
+    bottom:0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    font-weight: bold;
+    text-align: center;
+
+    transition: 0.5s;
+}
+.tab:hover
+{
+    padding-top: 17px;
+    height: 25px;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.tab.active
+{
+    height: 30px;
+    padding-top:20px;
+    background: #5779c8;
+    color:rgb(37, 55, 121);
+    animation: 0.5s ease-out selected;
+}
