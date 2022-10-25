@@ -1,6 +1,6 @@
 body
 {
-    background: rgb(22, 39, 123);
+    background: rgb(18, 58, 104);
     margin: 10px;
     padding: 0px;
     color:rgb(149, 189, 192);
@@ -25,7 +25,7 @@ h1 {margin-bottom:0px;}
     margin: 0px;
     align-items:flex-end;
     display: inline-grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto;
     list-style-type: none;
     justify-content: center;
 }

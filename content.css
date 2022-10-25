@@ -31,7 +31,7 @@ p
 }
 
 
-img 
+#icon
 {
     border-radius: 10px;
     height: 200px;
@@ -53,9 +53,9 @@ h2{color: rgb(16, 58, 118);}
 }
 
 
-#download
+#logo
 {
-    color: rgb(21, 64, 124);
+    height: 50px;
 }
 
 a{color:rgb(20, 57, 151)}
@@ -64,6 +64,12 @@ a:hover{color:rgb(22, 68, 183)}
 #info
 {
     margin-top: 10px;
-    color:rgb(60, 87, 155)
+    color:rgb(36, 63, 132)
 }
 
+#features {
+    text-align: right;
+    color:rgb(10, 26, 96);
+    font-size: 20px;
+}   
+li {color:rgb(21, 43, 141)}
